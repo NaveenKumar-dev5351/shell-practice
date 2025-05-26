@@ -1,0 +1,10 @@
+#!/bin/bash
+
+Person1=navi
+Person2=goutham
+
+echo "$person1:: Hi $person2. how are you?"
+echo "$person2 :: Hi ra am fine how about you?"
+echo "$person1:: did you had your lunch , lets go and have it"
+echo "$person2:: okay raa"
+echo "please com to my place fast
