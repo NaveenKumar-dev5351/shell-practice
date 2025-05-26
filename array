@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FRUITS=('banana','apple','orange')
+FRUITS=("banana" "apple" "orange")
 
 echo "first fruit: $(FRUITS{0})"
 echo "first fruit: $(FRUITS{3})"
