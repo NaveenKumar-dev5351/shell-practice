@@ -2,5 +2,5 @@
 
 FRUITS=("banana" "apple" "orange")
 
-echo "first fruit: $(FRUITS{0})"
-echo "first fruit: $(FRUITS{3})"
+echo "first fruit: ${FRUITS[0]}"
+echo "first fruit: ${FRUITS[3]}"
