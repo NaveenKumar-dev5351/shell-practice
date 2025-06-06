@@ -10,7 +10,7 @@ else
 fi
 
 HE=$Idiot
-if [ $HE -calls me  an idiot ]
+if [ $HE ]
 then 
     echo "I will kill him"
 else 
