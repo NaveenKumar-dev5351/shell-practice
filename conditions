@@ -9,8 +9,8 @@ else
     echo "Given Number $Number is not less than 10"
 fi
 
- HE=you are idiot
-if [ $He calls me  an idiot ]
+HE=you are idiot
+if [ $He -calls me  an idiot ]
 then 
     echo "I will kill him"
 else 
