@@ -1,7 +1,7 @@
 #!/bin/bash
+Number=$fuck
 
-
-if [ He call me an idiot ];
+if [ $Number ];
 then 
     echo "i will kill him"
 else 
