@@ -4,4 +4,5 @@ FRUITS=("banana" "apple" "orange" "mango")
 
 echo "first fruit: ${FRUITS[0]}"
 echo "first fruit: ${FRUITS[3]}"
-echo "all fruits:  ${fruits[@]}"
+
+echo "all fruits:  ${FRUITS[@]}"
