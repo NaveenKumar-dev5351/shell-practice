@@ -1,9 +1,9 @@
 #!/bin/bash
 
 HE=$Idiot
-if [ $HE ]
+if [ $HE -eq Idiot ]
 then 
-    echo "I will kill him"
+    echo "i will kill him if he say $HE"
 else 
-    echo "i will ignore him"
+    echo "i will ignore him if he dont say $HE"
 fi
