@@ -3,7 +3,7 @@
 HE=$Idiot
 if [ $HE -eq Idiot ]
 then 
-    echo "i will kill him if he say $HE"
+    echo "i will kill him if he say $HE is equal to idiot"
 else 
-    echo "i will ignore him if he dont say $HE"
+    echo "i will ignore him if he dont say $HE is not equal to idiot "
 fi
