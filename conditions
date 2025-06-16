@@ -1,9 +1,10 @@
 #!/bin/bash
-Number=$fuck
 
-if [ $Number ];
+USERID=$(id -u)
+
+if [ $USERID -ne 0 ]
 then 
-    echo "i will kill him"
-else 
-    echo "i will ignore him"
+    echo "ERROR: Please run this script with root access"
+
 fi
+
