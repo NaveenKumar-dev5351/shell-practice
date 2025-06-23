@@ -1,0 +1,13 @@
+- First Name: Naveen kumar
+  Last Name: Lingampally
+  DOB: 09/10/1994
+  Addresses : #list of address
+  - type : Perm
+    H.no : 4-67
+    Vill : Mallaram
+    Mdl : Vemulawada
+
+  - type : current
+    H.no : 4-67
+    Vill : Kommana
+    Mdl : Hyderabad

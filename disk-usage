@@ -7,5 +7,12 @@ while IFS= read line
 do 
     USAGE=$(echo $line | awk '{print $6F}' | cut -d "%" -f1)
     PARTITION=$(echo $line | awk '{print $7F}')
-    echo "$PARTITION: $USAGE"  
+    if [ $USAGE -ge $DISK_THRESHOLD ]
+    then 
+       MSG+="High disk usage on $PARTITION: $USAGE \n"
+    fi 
 done <<< $DISK_USAGE
+
+#echo -e $MSG
+
+sh mail "Devops Team" "High Disk usage" $IP $MSG "naveenlingampelli456@gmail.com" "ALERT-High Disk Usage"
